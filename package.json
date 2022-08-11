@@ -1,0 +1,35 @@
+{
+  "name": "miftahemir",
+  "version": "1.5.12",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.6.4",
+    "@heroicons/react": "^1.0.6",
+    "@tailwindcss/forms": "^0.5.1",
+    "@tailwindcss/typography": "^0.5.2",
+    "animate.css": "^4.1.1",
+    "date-fns": "^2.28.0",
+    "googleapis": "^84.0.0",
+    "gsap": "^3.10.4",
+    "next": "^12.1.6",
+    "react": "17.0.1",
+    "react-audio-player": "^0.17.0",
+    "react-dom": "17.0.1",
+    "react-hook-form": "^7.30.0",
+    "sharp": "^0.30.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "autoprefixer": "^10.4.7",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.1.2"
+  }
+}
