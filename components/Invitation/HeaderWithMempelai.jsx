@@ -9,7 +9,7 @@ const HeaderWithMempelai = () => {
           <div className="m-auto block items-center justify-center text-center mt-8 lg:mt-32 max-w-2xl">
             <p
               className="handwriting mb-8 text-center text-3xl lg:text-6xl"
-              style={{ color: "rgb(233 111 126)" }}
+              style={{ color: "rgb(209 153 220)" }}
             >
               Bismillahirrahmanirrahim
             </p>
@@ -29,7 +29,7 @@ const HeaderWithMempelai = () => {
           <div className="flex flex-col mx-8 mt-8 md:mt-0 max-w-xs justify-center items-center text-center">
             <div>
               <Image
-                src="/images/bat.jpeg"
+                src="/images/emir_avatar.jpg"
                 className="rounded-full"
                 width={192}
                 height={192}
@@ -39,7 +39,7 @@ const HeaderWithMempelai = () => {
             <div>
               <p
                 className="handwriting my-4 text-4xl"
-                style={{ color: "rgb(233 111 126)" }}
+                style={{ color: "rgb(209 153 220)" }}
               >
                 Emir Firdaus, S.Kom.
               </p>
@@ -53,7 +53,7 @@ const HeaderWithMempelai = () => {
           <div className="flex flex-col mx-8 mt-8 md:mt-0 max-w-xs justify-center items-center text-center">
             <div>
               <Image
-                src="/images/fit.jpeg"
+                src="/images/miftah_avatar.jpg"
                 className="rounded-full"
                 width={192}
                 height={192}
@@ -63,7 +63,7 @@ const HeaderWithMempelai = () => {
             <div>
               <p
                 className="handwriting my-4 text-4xl"
-                style={{ color: "rgb(233 111 126)" }}
+                style={{ color: "rgb(209 153 220)" }}
               >
                 Miftahul Jannatul Madaniyah, S. K. M.
               </p>
