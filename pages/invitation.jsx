@@ -8,7 +8,7 @@ import Protocol from "../components/Invitation/Protocol";
 import Attendance from "../components/Invitation/Attendance";
 import Gift from "../components/Invitation/Gift";
 
-// import { getDataFromSheets } from "./api/sheets";
+import { getDataFromSheets } from "./api/sheets";
 
 export default function Invitation({ data }) {
   return (
@@ -28,7 +28,7 @@ export default function Invitation({ data }) {
           >
             <p
               className="handwriting my-8 text-center text-4xl lg:text-6xl"
-              style={{ color: "rgb(233 111 126)" }}
+              style={{ color: "rgb(209 153 220)" }}
             >
               Save the Date
             </p>
@@ -57,7 +57,8 @@ export default function Invitation({ data }) {
                   Resepsi Pernikahan <br />
                   Tanggal : Minggu, 04 September 2022 <br />
                   Waktu : Pukul 11.00 - 15.00 WIB <br />
-                  Lokasi : Komplek PDK No.83 RT 001/004, Cirendeu, Lebak Bulus <br />
+                  Lokasi : Komplek PDK No.83 RT 001/004, Cirendeu, Lebak Bulus{" "}
+                  <br />
                 </p>
               </div>
             </div>
@@ -76,7 +77,7 @@ export default function Invitation({ data }) {
           <div>
             <p
               className="handwriting my-8 text-center text-4xl lg:text-6xl"
-              style={{ color: "rgb(233 111 126)" }}
+              style={{ color: "rgb(209 153 220)" }}
             >
               Protokol Kesehatan
             </p>
@@ -98,19 +99,19 @@ export default function Invitation({ data }) {
           <div className="flex flex-col text-center max-w-5xl mx-auto">
             <p>Wassalamu&apos;alaikum Warahmatullahi Wabarakatuh</p>
             <p className="mt-4">Kami yang berbahagia,</p>
-            <p>Kel.  Bapak Suhilman Efendi & Ibu Misbahuliyati Tsaniyah</p>
+            <p>Kel. Bapak Suhilman Efendi & Ibu Misbahuliyati Tsaniyah</p>
             <p>Kel. Bapak Hanafi, S. Sos. & Ibu Lelayati</p>
             <p
               className="handwriting my-8 text-center text-4xl lg:text-6xl"
-              style={{ color: "rgb(233 111 126)" }}
+              style={{ color: "rgb(209 153 220)" }}
             >
               Miftah & Emir
             </p>
           </div>
 
-          {/* <div id="ucapan">
+          <div id="ucapan">
             <Attendance sheetdata={data} />
-          </div> */}
+          </div>
           <div id="gift" style={{ paddingBottom: "15vh" }}>
             <Gift />
           </div>
@@ -120,12 +121,12 @@ export default function Invitation({ data }) {
   );
 }
 
-// export async function getStaticProps(context) {
-//   const sheet = await getDataFromSheets();
-//   return {
-//     props: {
-//       data: sheet.slice(1, sheet.length), // remove sheet header
-//     },
-//     revalidate: 1, // In seconds
-//   };
-// }
+export async function getStaticProps(context) {
+  const sheet = await getDataFromSheets();
+  return {
+    props: {
+      data: sheet.slice(1, sheet.length), // remove sheet header
+    },
+    revalidate: 1, // In seconds
+  };
+}
