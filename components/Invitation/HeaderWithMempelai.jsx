@@ -33,17 +33,17 @@ const HeaderWithMempelai = () => {
                 className="rounded-full"
                 width={192}
                 height={192}
-                alt="Avatar Itsbat"
+                alt="Avatar Emir"
               />
             </div>
             <div>
               <p
-                className="handwriting my-4 text-4xl"
+                className="handwriting my-4 text-lg"
                 style={{ color: "rgb(209 153 220)" }}
               >
                 Emir Firdaus, S.Kom.
               </p>
-              <p className="text-xl lg:mb-2">Putra dari</p>
+              <p className="text-xl lg:mb-2">Putra Pertama dari</p>
               <p className="text-sm">Bapak Hanafi, S. Sos.</p>
               <p className="text-sm">Ibu Lelayati</p>
             </div>
@@ -57,17 +57,17 @@ const HeaderWithMempelai = () => {
                 className="rounded-full"
                 width={192}
                 height={192}
-                alt="Avatar Fithriyya"
+                alt="Avatar Miftah"
               />
             </div>
             <div>
               <p
-                className="handwriting my-4 text-4xl"
+                className="handwriting my-4 text-lg"
                 style={{ color: "rgb(209 153 220)" }}
               >
                 Miftahul Jannatul Madaniyah, S. K. M.
               </p>
-              <p className="text-xl lg:mb-2">Putri dari</p>
+              <p className="text-xl lg:mb-2">Putri Pertama dari</p>
               <p className="text-sm"> Bapak Suhilman Efendi</p>
               <p className="text-sm">Ibu Misbahuliyati Tsaniyah</p>
             </div>

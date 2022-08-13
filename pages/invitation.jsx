@@ -9,13 +9,25 @@ import Attendance from "../components/Invitation/Attendance";
 import Gift from "../components/Invitation/Gift";
 
 import { getDataFromSheets } from "./api/sheets";
+import bgInv from "../public/images/bg_full.png"
 
 export default function Invitation({ data }) {
   return (
     <>
       <ReactAudioPlayer src="bgm.mp3" autoPlay />
       <Layout>
-        <div className="mx-4 lg:mx-0 animate__animated animate__fadeIn">
+        <div
+          className="mx-4 lg:mx-0 animate__animated animate__fadeIn"
+          style={{
+            backgroundImage: `url(${bgInv.src})`,
+            backgroundSize: "cover",
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+          }}
+        >
           <HeaderWithMempelai />
 
           <div className="flex max-w-5xl mx-auto">

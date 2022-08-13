@@ -9,35 +9,35 @@ function MyApp({ Component, pageProps }) {
         <meta name="title" content="#FirdausilJannati" />
         <meta
           name="description"
-          content="Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra - putri kami: Fithriyyah Izzah Annisa dan Muhammad Itsbat."
+          content="Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra - putri kami: Miftahh Izzah Annisa dan Muhammad Emir."
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://fithriyyahitsbat.vercel.app/"
+          content="https://MiftahhEmir.vercel.app/"
         />
         <meta property="og:title" content="#FirdausilJannati" />
         <meta
           property="og:description"
-          content="Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra - putri kami: Fithriyyah dan Itsbat."
+          content="Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra - putri kami: Miftahh dan Emir."
         />
         <meta
           property="og:image"
-          content="https://fithriyyahitsbat.vercel.app/images/landing.webp"
+          content="https://MiftahhEmir.vercel.app/images/landing.webp"
         />
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://fithriyyahitsbat.vercel.app/"
+          content="https://MiftahhEmir.vercel.app/"
         />
         <meta property="twitter:title" content="#FirdausilJannati" />
         <meta
           property="twitter:description"
-          content="Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra-putri kami: Fithriyyah Izzah Annisa dan Muhammad Itsbat."
+          content="Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra-putri kami: Miftahh Izzah Annisa dan Muhammad Emir."
         />
         <meta
           property="twitter:image"
-          content="https://fithriyyahitsbat.vercel.app/images/landing.webp"
+          content="https://MiftahhEmir.vercel.app/images/landing.webp"
         />
       </Head>
       <Component {...pageProps} />

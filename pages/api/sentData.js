@@ -31,7 +31,7 @@ async function sentDataCell(req, res) {
         requestBody: {
           values: [
             [
-              null,
+              // null,
               namaHadir,
               valueConfirm,
               valueAttend,
