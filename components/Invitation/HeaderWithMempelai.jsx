@@ -29,8 +29,8 @@ const HeaderWithMempelai = () => {
           <div className="flex flex-col mx-8 mt-8 md:mt-0 max-w-xs justify-center items-center text-center">
             <div>
               <Image
-                src="/images/emir_avatar.jpg"
-                className="rounded-full"
+                src="/images/asset_emir_solo_small.png"
+                // className="rounded-full"
                 width={192}
                 height={192}
                 alt="Avatar Emir"
@@ -38,7 +38,7 @@ const HeaderWithMempelai = () => {
             </div>
             <div>
               <p
-                className="handwriting my-4 text-lg"
+                className="handwriting my-4 text-2xl"
                 style={{ color: "rgb(209 153 220)" }}
               >
                 Emir Firdaus, S.Kom.
@@ -53,7 +53,7 @@ const HeaderWithMempelai = () => {
           <div className="flex flex-col mx-8 mt-8 md:mt-0 max-w-xs justify-center items-center text-center">
             <div>
               <Image
-                src="/images/miftah_avatar.jpg"
+                src="/images/asset_miftah_solo_small.png"
                 className="rounded-full"
                 width={192}
                 height={192}
@@ -62,7 +62,7 @@ const HeaderWithMempelai = () => {
             </div>
             <div>
               <p
-                className="handwriting my-4 text-lg"
+                className="handwriting my-4 text-2xl"
                 style={{ color: "rgb(209 153 220)" }}
               >
                 Miftahul Jannatul Madaniyah, S. K. M.
