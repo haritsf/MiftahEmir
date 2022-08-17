@@ -13,7 +13,7 @@ export default function Home() {
         <Image
           className="w-full h-auto object-cover animate__animated animate__fadeIn"
           layout="fill"
-          src="/images/DSCF5521.JPG"
+          src="/images/asset_emir_bg_front.jpg"
           alt="Backgorund Decorative"
         />
         <div className="bg-white opacity-75 absolute inset-0 flex flex-col items-center justify-center">
