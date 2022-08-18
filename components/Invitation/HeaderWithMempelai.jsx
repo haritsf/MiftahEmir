@@ -31,8 +31,8 @@ const HeaderWithMempelai = () => {
               <Image
                 src="/images/asset_emir_solo_small.png"
                 // className="rounded-full"
-                width={192}
-                height={192}
+                width={256}
+                height={256}
                 alt="Avatar Emir"
               />
             </div>
@@ -55,8 +55,8 @@ const HeaderWithMempelai = () => {
               <Image
                 src="/images/asset_miftah_solo_small.png"
                 className="rounded-full"
-                width={192}
-                height={192}
+                width={256}
+                height={256}
                 alt="Avatar Miftah"
               />
             </div>
