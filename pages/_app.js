@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           property="og:image"
-          content="https://MiftahhEmir.vercel.app/images/landing.webp"
+          content="https://MiftahhEmir.vercel.app/images/thumb.jpg"
         />
         <meta property="twitter:card" content="summary_large_image" />
         <meta
@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           property="twitter:image"
-          content="https://MiftahhEmir.vercel.app/images/landing.webp"
+          content="https://MiftahhEmir.vercel.app/images/thumb.jpg"
         />
       </Head>
       <Component {...pageProps} />
