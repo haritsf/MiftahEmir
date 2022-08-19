@@ -1,12 +1,26 @@
+import Image from "next/image";
+
 const VideoPreview = () => {
   return (
-    <div className="grid grid-rows-1 justify-center items-center">
+    <div className="grid grid-rows-1 md:flex-row justify-center items-center">
       <p
-        className="handwriting my-8 text-center text-4xl lg:text-6xl"
-        style={{ color: "rgb(209 153 220)" }}
+        className="handwriting my-8 text-center text-4xl lg:text-6xl text-red-700"
+        // style={{ color: "rgb(209 153 220)" }}
       >
-        Engagement
+        Gallery
       </p>
+      <div className="mx-2 my-2 justify-center text-center">
+        <Image src="/images/grid/1.jpg" width={265} height={540} alt="G1" />
+      </div>
+      <div className="mx-2 my-2 justify-center text-center">
+        <Image src="/images/grid/2.jpg" width={265} height={540} alt="G2" />
+      </div>
+      <div className="mx-2 my-2 justify-center text-center">
+        <Image src="/images/grid/3.jpg" width={265} height={540} alt="G3" />
+      </div>
+      <div className="mx-2 my-2 justify-center text-center">
+        <Image src="/images/grid/4.jpg" width={265} height={540} alt="G4" />
+      </div>
       <div style={{ textAlign: "center" }}>
         <video
           // className="justify-center items-center"
