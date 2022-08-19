@@ -1,22 +1,31 @@
 import Image from "next/image";
+import bgInv from "../../public/images/6.png";
 
 const HeaderWithMempelai = () => {
   return (
     <>
-      <div className="flex flex-col">
+      <div
+        className="flex flex-col"
+        style={{
+          backgroundImage: `url(${bgInv.src})`,
+          backgroundSize: "cover",
+        }}
+      >
         {/* Header */}
         <div className="flex">
           <div className="m-auto block items-center justify-center text-center mt-8 lg:mt-32 max-w-2xl">
-            <p
-              className="handwriting mb-8 text-center text-3xl lg:text-6xl"
-              style={{ color: "rgb(209 153 220)" }}
-            >
-              Bismillahirrahmanirrahim
-            </p>
-            <p className="mt-8 mb-2">
+            {/* <div> */}
+              <Image
+                src="/images/basmalah.png"
+                width={288}
+                height={93}
+                alt="Bismillah"
+              />
+            {/* </div> */}
+            <p className="mt-2 mb-2">
               Assalamu&apos;alaikum Warahmatullahi Wabarakatuh
             </p>
-            <p>
+            <p className="mx-2">
               Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud
               menyelenggarakan pernikahan putra - putri kami:
             </p>
@@ -30,7 +39,6 @@ const HeaderWithMempelai = () => {
             <div>
               <Image
                 src="/images/asset_emir_solo_small.png"
-                // className="rounded-full"
                 width={256}
                 height={256}
                 alt="Avatar Emir"
@@ -38,12 +46,12 @@ const HeaderWithMempelai = () => {
             </div>
             <div>
               <p
-                className="handwriting my-4 text-2xl"
+                className="handwriting text-2xl"
                 style={{ color: "rgb(209 153 220)" }}
               >
                 Emir Firdaus, S.Kom.
               </p>
-              <p className="text-xl lg:mb-2">Putra Pertama dari</p>
+              <p className="text-xl">Putra Pertama</p>
               <p className="text-sm">Bapak Hanafi, S. Sos.</p>
               <p className="text-sm">Ibu Lelayati</p>
             </div>
@@ -54,7 +62,6 @@ const HeaderWithMempelai = () => {
             <div>
               <Image
                 src="/images/asset_miftah_solo_small.png"
-                className="rounded-full"
                 width={256}
                 height={256}
                 alt="Avatar Miftah"
@@ -62,13 +69,13 @@ const HeaderWithMempelai = () => {
             </div>
             <div>
               <p
-                className="handwriting my-4 text-2xl"
+                className="handwriting text-2xl"
                 style={{ color: "rgb(209 153 220)" }}
               >
-                Miftahul Jannatul Madaniyah, S. K. M.
+                Miftahul Jannatul M., S. K. M.
               </p>
-              <p className="text-xl lg:mb-2">Putri Pertama dari</p>
-              <p className="text-sm"> Bapak Suhilman Efendi</p>
+              <p className="text-xl">Putri Pertama</p>
+              <p className="text-sm">Bapak Suhilman Efendi</p>
               <p className="text-sm">Ibu Misbahuliyati Tsaniyah</p>
             </div>
           </div>
