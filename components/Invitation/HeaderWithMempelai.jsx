@@ -17,8 +17,8 @@ const HeaderWithMempelai = () => {
             {/* <div> */}
               <Image
                 src="/images/basmalah.png"
-                width={288}
-                height={93}
+                width={286}
+                height={63}
                 alt="Bismillah"
               />
             {/* </div> */}
