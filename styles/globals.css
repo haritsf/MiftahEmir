@@ -3,9 +3,9 @@
 @tailwind utilities;
 @import "animate.css/animate.min.css";
 @import "../public/fonts/custom.css";
-@import "../styles/countdown.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Dancing+Script:ital,wght@0,400;0,700;1,400;1,700&display=swap"); */
 
 html,
 body {
@@ -13,6 +13,9 @@ body {
   font-family: "Noto Serif", serif;
 }
 
-.handwriting {
+/* .handwriting {
   font-family: "Mrs Saint Delafield", cursive;
+} */
+.handwriting {
+  font-family: "Dancing Script", "Noto Serif";
 }
