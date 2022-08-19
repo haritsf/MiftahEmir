@@ -46,8 +46,8 @@ const HeaderWithMempelai = () => {
             </div>
             <div>
               <p
-                className="handwriting text-2xl"
-                style={{ color: "rgb(209 153 220)" }}
+                className="handwriting text-2xl text-red-700"
+                // style={{ color: "rgb(209 153 220)" }}
               >
                 Emir Firdaus, S.Kom.
               </p>
@@ -69,8 +69,8 @@ const HeaderWithMempelai = () => {
             </div>
             <div>
               <p
-                className="handwriting text-2xl"
-                style={{ color: "rgb(209 153 220)" }}
+                className="handwriting text-2xl text-red-700"
+                // style={{ color: "rgb(209 153 220)" }}
               >
                 Miftahul Jannatul M., S. K. M.
               </p>

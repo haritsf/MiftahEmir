@@ -36,8 +36,8 @@ export default function Invitation({ data }) {
 
           <div>
             <p
-              className="handwriting my-8 text-center text-4xl lg:text-6xl"
-              style={{ color: "rgb(209 153 220)" }}
+              className="handwriting my-8 text-center text-4xl lg:text-6xl text-red-700"
+              // style={{ color: "rgb(209 153 220)" }}
             >
               Protokol Kesehatan
             </p>
@@ -62,8 +62,8 @@ export default function Invitation({ data }) {
             <p>Kel. Bapak Suhilman Efendi & Ibu Misbahuliyati Tsaniyah</p>
             <p>Kel. Bapak Hanafi, S. Sos. & Ibu Lelayati</p>
             <p
-              className="handwriting my-8 text-center text-4xl lg:text-6xl"
-              style={{ color: "rgb(209 153 220)" }}
+              className="handwriting my-8 text-center text-4xl lg:text-6xl text-red-700"
+              // style={{ color: "rgb(209 153 220)" }}
             >
               Miftah & Emir
             </p>

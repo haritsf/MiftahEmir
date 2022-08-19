@@ -7,8 +7,8 @@ const Gift = () => {
     <>
       <div className="flex flex-col">
         <p
-          className="handwriting my-8 text-center text-4xl lg:text-6xl "
-          style={{ color: "rgb(209 153 220)" }}
+          className="handwriting my-8 text-center text-4xl lg:text-6xl text-red-700"
+          // style={{ color: "rgb(209 153 220)" }}
         >
           Wedding Gift
         </p>
@@ -27,15 +27,15 @@ const Gift = () => {
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                 <div className="grid grid-cols-2">
                   <div className="font-medium text-center">
-                    <h2 className="text-base text-gray-900">802***714 (BNI)</h2>
+                    <h2 className="text-base text-gray-900">0081093822100 (BJB)</h2>
                     <h2 className="text-base text-gray-500">
-                      a/n Fulan Bin Fulan
+                      a/n Emir Fidaus
                     </h2>
                   </div>
                   <div className="font-medium text-center">
-                    <h2 className="text-base text-gray-900">727***2551 (BCA)</h2>
+                    <h2 className="text-base text-gray-900">727***2551 (BSI)</h2>
                     <h2 className="text-base text-gray-500">
-                      a/n Fulanah Binti Fulan
+                      a/n Emir Firdaus
                     </h2>
                   </div>
                 </div>

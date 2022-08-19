@@ -12,8 +12,8 @@ const DetailAcara = () => {
         }}
       >
         <p
-          className="handwriting my-8 text-center text-4xl lg:text-6xl"
-          style={{ color: "rgb(209 153 220)" }}
+          className="handwriting my-8 text-center text-4xl lg:text-6xl text-red-700"
+          // style={{ color: "rgb(209 153 220)" }}
         >
           Save the Date
         </p>
