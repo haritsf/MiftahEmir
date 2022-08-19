@@ -13,7 +13,7 @@ export default function Home() {
         <Image
           className="w-full h-auto object-cover animate__animated animate__fadeIn"
           layout="fill"
-          src="/images/asset_emir_bg_front.jpg"
+          src="/images/cincin_lightroom.jpg"
           alt="Backgorund Decorative"
         />
         <div className="bg-white opacity-75 absolute inset-0 flex flex-col items-center justify-center">
@@ -41,7 +41,7 @@ export default function Home() {
             </div>
           ) : null}
           <div className="flex flex-row space-x-8 px-4">
-            <p className="text-base">
+            <p className="text-base text-center">
               Dengan memohon Ridho dan Rahmat Allah SWT, kami mengundang anda
               untuk hadir di acara pernikahan kami.
             </p>
