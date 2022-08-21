@@ -4,6 +4,7 @@ import { Switch } from "@headlessui/react";
 import { RadioGroup } from "@headlessui/react";
 import { CloudUploadIcon } from "@heroicons/react/outline";
 import { useRouter } from "next/router";
+import { toast, ToastContainer } from "react-toastify";
 
 const kedatangan = [
   {
@@ -45,7 +46,10 @@ const Attendance = ({ sheetdata }) => {
         "Content-Type": "application/json",
       },
     }).then(function (response) {
-      setTimeout(() => router.reload(), 3000);
+      if (response.status === 201) {
+        toast.success("Kehadiran Anda disimpan, Terima Kasih");
+        setTimeout(() => router.push("/invitation"), 3000);
+      }
     });
     // reset(); // clears the input on submitting
   };
