@@ -12,7 +12,7 @@ const DetailAcara = () => {
         }}
       >
         <p
-          className="handwriting my-8 text-center text-4xl lg:text-6xl text-red-700 animate__animated animate__pulse animate__infinite"
+          className="handwriting my-8 text-center text-4xl lg:text-6xl text-red-700"
           // style={{ color: "rgb(209 153 220)" }}
         >
           Save the Date

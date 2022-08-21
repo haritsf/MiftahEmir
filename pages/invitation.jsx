@@ -71,7 +71,7 @@ export default function Invitation({ data }) {
               Kel. Bapak Hanafi, S. Sos. & Ibu Lelayati
             </p>
             <p
-              className="handwriting my-8 text-center text-4xl lg:text-6xl text-red-700 animate__animated animate__pulse animate__infinite"
+              className="handwriting my-8 text-center text-4xl lg:text-6xl text-red-700"
               // style={{ color: "rgb(209 153 220)" }}
             >
               Miftah & Emir
@@ -82,7 +82,7 @@ export default function Invitation({ data }) {
             <Attendance sheetdata={data} />
           </div>
           <div id="gift" style={{ paddingBottom: "15vh" }}>
-            <Gift />
+            {/* <Gift /> */}
           </div>
         </div>
       </Layout>
