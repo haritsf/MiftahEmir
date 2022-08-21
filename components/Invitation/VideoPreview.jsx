@@ -10,16 +10,40 @@ const VideoPreview = () => {
         Gallery
       </p>
       <div className="mx-2 my-2 justify-center text-center">
-        <Image src="/images/grid/1.jpg" width={265} height={540} alt="G1" />
+        <Image
+          src="/images/grid/1.jpg"
+          width={265}
+          height={540}
+          alt="G1"
+          className="animate__animated animate__fadeInUp animate__delay-3s"
+        />
       </div>
       <div className="mx-2 my-2 justify-center text-center">
-        <Image src="/images/grid/2.jpg" width={265} height={540} alt="G2" />
+        <Image
+          src="/images/grid/2.jpg"
+          width={265}
+          height={540}
+          alt="G2"
+          className="animate__animated animate__fadeInUp animate__delay-3s"
+        />
       </div>
       <div className="mx-2 my-2 justify-center text-center">
-        <Image src="/images/grid/3.jpg" width={265} height={540} alt="G3" />
+        <Image
+          src="/images/grid/3.jpg"
+          width={265}
+          height={540}
+          alt="G3"
+          className="animate__animated animate__fadeInUp animate__delay-3s"
+        />
       </div>
       <div className="mx-2 my-2 justify-center text-center">
-        <Image src="/images/grid/4.jpg" width={265} height={540} alt="G4" />
+        <Image
+          src="/images/grid/4.jpg"
+          width={265}
+          height={540}
+          alt="G4"
+          className="animate__animated animate__fadeInUp animate__delay-3s"
+        />
       </div>
       <div style={{ textAlign: "center" }}>
         <video

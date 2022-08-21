@@ -14,18 +14,14 @@ const HeaderWithMempelai = () => {
         {/* Header */}
         <div className="flex">
           <div className="m-auto block items-center justify-center text-center mt-8 lg:mt-32 max-w-2xl">
-            {/* <div> */}
-              <Image
-                src="/images/basmalah.png"
-                width={286}
-                height={63}
-                alt="Bismillah"
-              />
-            {/* </div> */}
-            <p className="mt-2 mb-2">
-              Assalamu&apos;alaikum Warahmatullahi Wabarakatuh
-            </p>
-            <p className="mx-2">
+            <Image
+              src="/images/basmalah.png"
+              width={286}
+              height={63}
+              alt="Bismillah"
+            />
+            <p className="my-2 mx-2">
+              Assalamu&apos;alaikum Warahmatullahi Wabarakatuh <br />
               Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud
               menyelenggarakan pernikahan putra - putri kami:
             </p>
@@ -42,6 +38,7 @@ const HeaderWithMempelai = () => {
                 width={256}
                 height={256}
                 alt="Avatar Emir"
+                className="animate__animated animate__fadeInUp"
               />
             </div>
             <div>
@@ -51,9 +48,12 @@ const HeaderWithMempelai = () => {
               >
                 Emir Firdaus, S.Kom.
               </p>
-              <p className="text-xl">Putra Pertama</p>
-              <p className="text-sm">Bapak Hanafi, S. Sos.</p>
-              <p className="text-sm">Ibu Lelayati</p>
+              <p className="text-lg">Putra Pertama</p>
+              <p className="text-sm">
+                Bapak Hanafi, S. Sos.
+                <br />
+                Ibu Lelayati
+              </p>
             </div>
           </div>
 
@@ -65,6 +65,7 @@ const HeaderWithMempelai = () => {
                 width={256}
                 height={256}
                 alt="Avatar Miftah"
+                className="animate__animated animate__fadeInUp"
               />
             </div>
             <div>
@@ -74,9 +75,12 @@ const HeaderWithMempelai = () => {
               >
                 Miftahul Jannatul M., S. K. M.
               </p>
-              <p className="text-xl">Putri Pertama</p>
-              <p className="text-sm">Bapak Suhilman Efendi</p>
-              <p className="text-sm">Ibu Misbahuliyati Tsaniyah</p>
+              <p className="text-lg">Putri Pertama</p>
+              <p className="text-sm">
+                Bapak Suhilman Efendi
+                <br />
+                Ibu Misbahuliyati Tsaniyah
+              </p>
             </div>
           </div>
         </div>
