@@ -9,7 +9,7 @@ import Attendance from "../components/Invitation/Attendance";
 import Gift from "../components/Invitation/Gift";
 
 import { getDataFromSheets } from "./api/sheets";
-import VideoPreview from "../components/Invitation/VideoPreview";
+import GalleryPreview from "../components/Invitation/GalleryPreview";
 import DetailAcara from "../components/Invitation/DetailAcara";
 
 export default function Invitation({ data }) {
@@ -37,7 +37,7 @@ export default function Invitation({ data }) {
             <hr className="shadow w-full justify-center items-center" />
           </div>
 
-          <VideoPreview />
+          <GalleryPreview />
 
           <div>
             <p

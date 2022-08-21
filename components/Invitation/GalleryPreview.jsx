@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const VideoPreview = () => {
+const GalleryPreview = () => {
   return (
     <div className="grid grid-rows-1 md:flex-row justify-center items-center">
       <p
@@ -36,7 +36,7 @@ const VideoPreview = () => {
           className="animate__animated animate__fadeInUp animate__delay-3s"
         />
       </div>
-      <div className="mx-2 my-2 justify-center text-center">
+      {/* <div className="mx-2 my-2 justify-center text-center">
         <Image
           src="/images/grid/4.jpg"
           width={265}
@@ -44,7 +44,7 @@ const VideoPreview = () => {
           alt="G4"
           className="animate__animated animate__fadeInUp animate__delay-3s"
         />
-      </div>
+      </div> */}
       <div style={{ textAlign: "center" }}>
         <video
           // className="justify-center items-center"
@@ -57,4 +57,4 @@ const VideoPreview = () => {
   );
 };
 
-export default VideoPreview;
+export default GalleryPreview;
