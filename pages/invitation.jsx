@@ -15,7 +15,12 @@ import DetailAcara from "../components/Invitation/DetailAcara";
 export default function Invitation({ data }) {
   return (
     <>
-      <ReactAudioPlayer src="beautiful_crush.mp3" autoPlay />
+      <ReactAudioPlayer
+        src="beautiful_crush.mp3"
+        autoPlay
+        controls
+        style={{ position: "fixed", left: 0, bottom: "8vh", zIndex: 1 }}
+      />
       <Layout>
         <div className="animate__animated animate__fadeIn">
           <HeaderWithMempelai />
@@ -45,7 +50,7 @@ export default function Invitation({ data }) {
           </div>
 
           <div className="flex flex-col max-w-5xl mx-auto my-8 md:max-w-xl lg:max-w-3xl">
-            <blockquote className="text-center">
+            <blockquote className="text-center px-2">
               &quot;Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia
               menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar
               kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan
