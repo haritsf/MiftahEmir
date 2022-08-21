@@ -63,11 +63,15 @@ export default function Invitation({ data }) {
 
           <div className="flex flex-col text-center max-w-5xl mx-auto">
             <p>Wassalamu&apos;alaikum Warahmatullahi Wabarakatuh</p>
-            <p className="mt-4">Kami yang berbahagia,</p>
-            <p>Kel. Bapak Suhilman Efendi & Ibu Misbahuliyati Tsaniyah</p>
-            <p>Kel. Bapak Hanafi, S. Sos. & Ibu Lelayati</p>
+            <p className="mt-4">
+              Kami yang berbahagia,
+              <br />
+              Kel. Bapak Suhilman Efendi & Ibu Misbahuliyati Tsaniyah
+              <br />
+              Kel. Bapak Hanafi, S. Sos. & Ibu Lelayati
+            </p>
             <p
-              className="handwriting my-8 text-center text-4xl lg:text-6xl text-red-700"
+              className="handwriting my-8 text-center text-4xl lg:text-6xl text-red-700 animate__animated animate__pulse animate__infinite"
               // style={{ color: "rgb(209 153 220)" }}
             >
               Miftah & Emir
