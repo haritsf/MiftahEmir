@@ -82,7 +82,7 @@ export default function Invitation({ data }) {
             <Attendance sheetdata={data} />
           </div>
           <div id="gift" style={{ paddingBottom: "15vh" }}>
-            {/* <Gift /> */}
+            <Gift />
           </div>
         </div>
       </Layout>
