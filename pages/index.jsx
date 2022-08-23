@@ -28,7 +28,9 @@ export default function Home() {
             </h2>
           </div>
           <div className="flex animate__animated animate__fadeIn">
-            <h3 className="text-xl lg:text-2xl mb-4">Minggu, 04 September 2022</h3>
+            <h3 className="text-xl lg:text-2xl mb-4">
+              Minggu, 04 September 2022
+            </h3>
           </div>
           {getUser.undang ? (
             <div className="flex flex-row space-x-8">
@@ -43,7 +45,7 @@ export default function Home() {
           <div className="flex flex-row space-x-8 px-4">
             <p className="text-base text-center">
               Dengan memohon Ridho dan Rahmat Allah SWT, kami mengundang anda
-              untuk hadir di acara pernikahan kami.
+              untuk hadir di acara pernikahan putra putri kami.
             </p>
           </div>
           <div className="flex flex-row space-x-8 mt-4">
